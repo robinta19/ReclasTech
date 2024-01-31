@@ -24,7 +24,7 @@ const Home = () => {
       <div id="Home" className="home  h-screen w-full">
         <div className="ornament absolute right-0 bottom-0 z-0">
           <img
-            className="h-[680px] object-cover"
+            className="h-[48rem] object-cover"
             src="Images/ornament2.png"
             alt=""
           />

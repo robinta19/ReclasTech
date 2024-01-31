@@ -30,7 +30,7 @@ const Navbar = () => {
         scrolled ? 'bg-navbar' : ''
       }`}
     >
-      <div className="wrap py-4 m-auto container flex justify-between items-center">
+      <div className="wrap py-4 px-5 m-auto container flex justify-between items-center">
         <div className="logo">
           <img src="Images/logo1.png" alt="" />
         </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
     <div
       className={`fixed w-full z-50 transition-all duration-300 ease-in-out bg-primary block md:hidden`}
     >
-      <div className="wrap py-2 px-2 m-auto container flex justify-between items-center">
+      <div className="wrap py-2 px-3 m-auto container flex justify-between items-center">
         <div className="nav flex items-end flex-col gap-1 text-[17px]  w-full text-white">
           <div className="wrap-head flex  w-full items-center justify-between">
             <div className="logo">
@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className={`wrap ${burger ? "flex opacity-100" : "hidden opacity-0 "}  bg-primary w-full items-center flex-col gap-5 transition-all duration-500`}>
+          <div className={`wrap ${burger ? "flex opacity-100" : "hidden opacity-0 "}  bg-primary w-full items-center flex-col gap-5 transition-all duration-500 py-2`}>
             <a href="#Home" className="font-bold">
               Home
             </a>
